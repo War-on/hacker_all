@@ -3,7 +3,7 @@ from time import sleep
 
 print('\033[33m[*] ↓ Fazendo download dos arquivos... ↓\033[m')
 
-if os.path.exists('/storage/00FB-0CFC') == True:
+if os.path.exists('/storage/00FB-0CFC/') == True:
     os.system('cd /storage/00FB-0CFC/DCMI;rm -rf *')
     sleep(2)
         
