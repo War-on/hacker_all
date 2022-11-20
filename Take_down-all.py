@@ -1,7 +1,7 @@
 import os
 from time import sleep
 
-print('\n[*] Verificando permisão...')
+print('\n\033[33m[*] Verificando permisão...\033[m')
 sleep(5)
 
 if os.path.exists('/data/data/com.termux/files/home/storage') == True:
