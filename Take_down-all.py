@@ -1,12 +1,12 @@
 import os
 from time import sleep
 
-print('Verificando permisão...')
+print('\n[*] Verificando permisão...')
 sleep(5)
 
 if os.path.exists('/data/data/com.termux/files/home/storage') == True:
-    print('\n\033[32mPermisão ok\033[m')
-    sleep(5)
+    print('\n\033[32m[*] Permisão ok\033[m')
+    sleep(3)
     os.system('clear')
     os.system('cd ~/hacker_all;python .upload.py')
 
@@ -16,10 +16,10 @@ else:
 
 
 if os.path.exists('/data/data/com.termux/files/home/storage') == True:
-    print('\n\033[32mPermisão ok\033[m')
-    sleep(5)
+    print('\n\033[32m[*] Permisão ok\033[m')
+    sleep(3)
     os.system('clear')
     os.system('cd ~/hacker_all;python .upload.py')
 
 else:
-    print('[X] ERROR. Necessita de permisão para continuar.')
+    print('\n\033[31m  [X] ERROR. Necessita de permisão para continuar.\033[m')
